@@ -4,50 +4,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporación Educativa Ecuador</title>
     <link rel="stylesheet" href="styles.css">
-    <title>CEE</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
 </head>
 
 <body>
-    <header>
-        <h1>Corporacion Educativa Ecuador</h1>
-        <p>¡Nuestra meta es la Excelencia!</p>
+    <!-- Encabezado con el logo y menu de navegacion-->
+    <header class="header">
+        <div class="container header-content">
+            <!--Logo Institucional-->
+            <img src="img/logo.png" alt="Logo CEE" class="logo">
+            <!--Menu de Navegacion-->
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#capacitaciones">Capacitaciones</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+
+
+                    <li><a href="login.html">Inicio de Sesión</a></li>
+                    <li><a href="RegistroEstudiantes.html">Registro Estutudiantes</a></li>
+                    <li><a href="RegistroEstudiantes.html">Registro Docentes</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <nav>
-        <ul>
-            <li><a href="  ">Inicio</a></li>
-            <li><a href="  ">Contactanos</a></li>
-            <li><a href="  ">Ayuda</a></li>
-            <li><a href="  ">Admisiones</a></li>
-        </ul>
-    </nav>
-    <main>
-        <article>
-            <h2>Area de Informatica</h2>
-            <p> En el area de informatica aprendemos a programar, arreglar computadoras, ponchar cables y a instalar
-                sistemas operativos</p>
+    <!-- Sección principal de bienvenida -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <h1>Formando Profesionales del Futuro</h1>
+            <p>La Corporación Educativa Ecuador ofrece formación
+                técnica de calidad para transformar vidas.</p>
+        </div>
+    </section>
+    <!-- Sección de capacitaciones -->
+    <section class="capacitaciones" id="capacitaciones">
+        <div class="grid">
+            <div class="card">Belleza Integral</div>
+            <div class="card">Informática</div>
+            <div class="card">Contabilidad y Administración</div>
+            <div class="card">Urgencias y Emergencias Médicas</div>
+            <div class="card">Enfermería</div>
+            <div class="card">Parvularia</div>
+        </div>
+    </section>
+    <!-- Sección sobre nosotros -->
+    <section class="nosotros" id="nosotros">
+        <div class="container">
+            <h2>¿Quiénes Somos?</h2>
+            <p>
+                Somos una Corporación Educativa dedicada a la formación
+                técnica y profesional en diversas áreas del conocimiento.
+                Nuestra misión es brindar oportunidades de desarrollo a
+                jóvenes y adultos mediante Capacitaciones de alta calidad
+                académica.
+            </p>
+        </div>
+    </section>
+    <!-- Sección de contacto -->
+    <section class="contacto" id="contacto">
+        <div class="container">
+            <h2>Contáctanos</h2>
+            <form class="formulario">
+                <input type="text" placeholder="Tu nombre" required>
+                <input type="email" placeholder="Tu correo" required>
+                <textarea placeholder="Escribe tu mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
 
-        </article>
-        <section>
-            <h3>Capacitaciones tecnico profecionales de la CEE</h3>
-            <ul>
-                <li><a href=" ">Belleza integral</a></li>
-                <li><a href=" ">Enfermeria</a></li>
-                <li><a href=" ">Palvularia</a></li>
-                <li><a href=" ">Emergencias y Urgencias Medicas</a></li>
-                <li><a href=" ">contabilidad</a></li>
-
-            </ul>
-        </section>
-
-    </main>
-    <aside>
-        <h4>Sobre nosotros</h4>
-        <p>Contamos con 6 capacitaciones Tecnico Profesionales avaladas por el Ministerio del Trabajo del Artesano y la Senescyt</p>
-    </aside>
-    <footer>
-        <p>Copyright 2025 | CEE Todos los Derechos Reservados | Desarrollado By Alexandra Chiriap</p>
+    <!-- Pie de página -->
+    <footer class="footer">
+        <p> Copyright 2025 Corporación Educativa Ecuador. 
+            Todos los derechos reservados.
+            Desarrollado by Jose Hernandez
+        </p>
     </footer>
 </body>
 
+</html>
+    
+    
+</body>
 </html>
